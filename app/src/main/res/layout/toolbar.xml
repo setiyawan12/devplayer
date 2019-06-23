@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#faff"
+    android:elevation="4dp"
+    android:fitsSystemWindows="true"
+    app:titleTextAppearance="@style/Toolbar.TitleText">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Dev Player"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lobster"/>
+
+</android.support.v7.widget.Toolbar>
