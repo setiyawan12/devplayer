@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     private SliderLayout sliderLayout;
 
-    private ImageView php,java1;
+    private ImageView php,java1,python;
     private Toolbar toll;
     private Object Toolbar;
     private CardView cv,cv1,cv2,cv3;
@@ -56,6 +56,14 @@ public class MainActivity extends AppCompatActivity {
 
         php = findViewById(R.id.php);
         java1= findViewById(R.id.java);
+        python = findViewById(R.id.python);
+        python.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, python.class);
+                startActivity(intent);
+            }
+        });
 //        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
 
 //        setSupportActionBar(toolbar);
