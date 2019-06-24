@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView php,java1;
     private Toolbar toll;
     private Object Toolbar;
-    private CardView cv;
+    private CardView cv,cv1,cv2,cv3;
     private TextView tv;
     private Button btn;
 
@@ -54,10 +54,6 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.cb_user);
         btn.startAnimation(atgsc);
 
-//        atgsc1 = AnimationUtils.loadAnimation(this, R.anim.atgsc1);
-        cv = findViewById(R.id.cv1);
-//        cv.startAnimation(atgsc1);
-
         php = findViewById(R.id.php);
         java1= findViewById(R.id.java);
 //        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
@@ -71,13 +67,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent a = new Intent(MainActivity.this, PHP.class);
-
-                Pair[] pairs = new Pair[1];
-                pairs[0] = new Pair<View, String>(php, "imagephp");
-
-                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.this, pairs);
-
-                startActivity(a, options.toBundle());
+                startActivity(a);
 
             }
         });
@@ -86,46 +76,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent a = new Intent(MainActivity.this, JAVA.class);
-
-                Pair[] pairs = new Pair[1];
-                pairs[0] = new Pair<View, String>(java1, "imagejava");
-
-                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.this, pairs);
-
-                startActivity(a, options.toBundle());
+                startActivity(a);
             }
         });
-
-//        sliderLayout = (SliderLayout) findViewById(R.id.slider);
-        // Load image dari URL
-//        HashMap<String,String> url_maps = new HashMap<String, String>();
-//        url_maps.put("Hannibal", "http://static2.hypable.com/wp-content/uploads/2013/12/hannibal-season-2-release-date.jpg");
-//        url_maps.put("Big Bang Theory", "http://tvfiles.alphacoders.com/100/hdclearart-10.png");
-//        url_maps.put("House of Cards", "http://cdn3.nflximg.net/images/3093/2043093.jpg");
-//        url_maps.put("Game of Thrones", "http://images.boomsbeat.com/data/images/full/19640/game-of-thrones-season-4-jpg.jpg");
-//        // Load Image Dari res/drawable
-//        HashMap<String,Integer> file_maps = new HashMap<String, Integer>();
-//        file_maps.put("Autis",R.drawable.autis);
-//        file_maps.put("Oppo",R.drawable.oppoa5s);
-//        file_maps.put("Ponsel",R.drawable.ponsel);
-//        file_maps.put("PHP", R.drawable.php);
-//        for(String name : file_maps.keySet()){
-//            TextSliderView textSliderView = new TextSliderView(this);
-//            // initialize a SliderLayout
-//            textSliderView
-//                    .description(name)
-//                    .image(file_maps.get(name))
-//                    .setScaleType(BaseSliderView.ScaleType.Fit);
-//            //add your extra information
-//            textSliderView.bundle(new Bundle());
-//            textSliderView.getBundle()
-//                    .putString("extra",name);
-//            sliderLayout.addSlider(textSliderView);
-//        }
-//        sliderLayout.setPresetTransformer(SliderLayout.Transformer.Accordion);
-//        sliderLayout.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom);
-//        sliderLayout.setCustomAnimation(new DescriptionAnimation());
-//        sliderLayout.setDuration(4000);
+        }
 
     }
-}

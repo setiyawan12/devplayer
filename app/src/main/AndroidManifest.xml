@@ -13,7 +13,14 @@
         android:roundIcon="@drawable/code"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".JAVA"></activity>
+        <activity android:name=".dart"></activity>
+        <activity android:name=".khotlin" />
+        <activity android:name=".react" />
+        <activity android:name=".ruby" />
+        <activity android:name=".js" />
+        <activity android:name=".c" />
+        <activity android:name=".python" />
+        <activity android:name=".JAVA" />
         <activity android:name=".PHP" />
         <activity android:name=".SplashScreen">
             <intent-filter>

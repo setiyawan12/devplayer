@@ -16,13 +16,12 @@
 
         <ImageView
             android:id="@+id/gambar"
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:scaleType="centerCrop"
-            android:padding="15dp"
-            android:transitionName="imagephp"
-            android:src="@drawable/php"/>
-
+            android:layout_width="410dp"
+            android:layout_height="200dp"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/cplus"
+            android:transitionName="imagephp" />
 
     </android.support.v7.widget.CardView>
 
@@ -66,15 +65,16 @@
                             android:layout_height="2px"
                             android:background="@color/colorPrimary"
                             android:layout_marginTop="5dp"/>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/php"
-                            android:textSize="15sp"
-                            android:lineSpacingExtra="3sp"
                             android:layout_marginTop="5dp"
+                            android:gravity=""
                             android:justificationMode="inter_word"
-                            android:gravity=""/>
+                            android:lineSpacingExtra="3sp"
+                            android:text="@string/cplus"
+                            android:textSize="15sp" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>

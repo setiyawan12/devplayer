@@ -6,14 +6,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".JAVA">
+    tools:context=".PHP">
 
-    <ImageView
-        android:id="@+id/gambar"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:transitionName="imagejava"
-        android:src="@drawable/java"/>
+    <android.support.v7.widget.CardView
+        app:cardElevation="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="410dp"
+            android:layout_height="200dp"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/java"
+            android:transitionName="imagephp" />
+
+    </android.support.v7.widget.CardView>
 
     <RelativeLayout
         android:id="@+id/rl1"
@@ -29,11 +39,46 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="PHP HAHAHAHAHAHAHAHAHAHAHAHHAH"
-                    android:textSize="100dp"/>
+
+                <android.support.v7.widget.CardView
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:padding="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Definisi"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2px"
+                            android:background="@color/colorPrimary"
+                            android:layout_marginTop="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity=""
+                            android:justificationMode="inter_word"
+                            android:lineSpacingExtra="3sp"
+                            android:text="@string/java"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
             </LinearLayout>
         </ScrollView>
 
@@ -49,6 +94,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:text="Play Vidio"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
                 android:layout_alignParentBottom="true"/>
         </RelativeLayout>
 

@@ -1,3 +1,94 @@
 <resources>
     <string name="app_name">DEV Player</string>
+    <string name="php">
+        PHP adalah bahasa pemrograman yang sering disisipkan ke dalam HTML.
+        PHP sendiri berasal dari kata Hypertext Preprocessor. Sejarah PHP pada awalnya merupakan kependekan dari Personal Home Page (Situs personal).
+        PHP pertama kali dibuat oleh Rasmus Lerdorf pada tahun 1995.
+        Pada waktu itu PHP masih bernama Form Interpreted (FI), yang wujudnya berupa sekumpulan skrip yang digunakan untuk mengolah data formulir dari web.
+        Bahasa pemrograman ini menggunakan sistem server-side. Server-side programming adalah jenis bahasa pemrograman yang nantinya script/program tersebut akan
+        dijalankan/diproses oleh server. Kelebihannya adalah mudah digunakan, sederhana, dan mudah untuk dimengerti dan dipelajari.
+    </string>
+    <string name="java1">DEV Player</string>
+    <string name="java">
+        Java sebagai salah satu bahasa pemrograman yang sudah berumur dari era 1990-an, kian berkembang dan melebarkan dominasinya di berbagai bidang.
+        Salah satu penggunaan terbesar Java adalah dalam pembuatan aplikasi native untuk Android.
+        Selain itu Java pun menjadi pondasi bagi berbagai bahasa pemrograman seperti Kotlin, Scala, Clojure, Groovy, JRuby, Jython, dan lainnya yang memanfaatkan Java Virtual Machine sebagai rumahnya.
+        Java pun akrab dengan dunia saintifik dan akademik.
+        Cukup banyak akademisi di Indonesia yang menggunakan Java sebagai alat bantu untuk menyelesaikan skripsi atau tugas akhir dengan berbagai topik yang didominasi kecerdasan buatan, data mining, enterprise architecture, aplikasi mobile, dan lainnya. Di dunia web development sendiri, Java memiliki berbagai web framework unggulan seperti Spring, Play Framework, Spark, Jakarta Struts, dan Java Server Pages.
+    </string>
+    <string name="cplus1">DEV Player</string>
+    <string name="cplus">
+        C++ adalah bahasa pemrograman komputer yang di buat oleh Bjarne Stroustrup, yang merupakan perkembangan dari bahasa C dikembangkan di Bong Labs (Dennis Ritchie) pada awal tahun 1970-an,
+        Bahasa itu diturunkan dari bahasa sebelumnya,
+        yaitu B, Pada awalnya, bahasa tersebut dirancang sebagai bahasa pemrograman yang dijalankan pada sistem Unix,
+        Pada perkembangannya, versi ANSI (American National Standart Institute) Bahasa pemrograman C menjadi versi dominan,
+        Meskipun versi tersebut sekarang jarang dipakai dalam pengembangan sistem dan jaringan maupun untuk sistem embedded,
+        Bjarne Stroustrup pada Bel labs pertama kali mengembangkan C++ pada awal 1980-an. Untuk mendukung fitur-fitur pada C++,
+        dibangun efisiensi dan sistem support untuk pemrograman tingkat rendah (low level coding).
+        [1] Pada C++ ditambahkan konsep-konsep baru seperti class dengan sifat-sifatnya seperti inheritance dan overloading.
+        [butuh rujukan] Salah satu perbedaan yang paling mendasar dengan bahasa C adalah dukungan terhadap konsep pemrograman berorientasi objek (Object Oriented Programming).
+    </string>
+    <string name="python1">DEV Player</string>
+    <string name="python">
+    Python adalah bahasa pemrograman interpretatif multiguna[9] dengan filosofi perancangan yang berfokus pada tingkat keterbacaan kode.
+        Python diklaim sebagai bahasa yang menggabungkan kapabilitas, kemampuan, dengan sintaksis kode yang sangat jelas, dan dilengkapi dengan fungsionalitas pustaka standar yang besar serta komprehensif.
+        Python juga didukung oleh komunitas yang besar.
+        Python mendukung multi paradigma pemrograman, utamanya; namun tidak dibatasi; pada pemrograman berorientasi objek, pemrograman imperatif, dan pemrograman fungsional.
+        Salah satu fitur yang tersedia pada python adalah sebagai bahasa pemrograman dinamis yang dilengkapi dengan manajemen memori otomatis. 
+        Seperti halnya pada bahasa pemrograman dinamis lainnya, python umumnya digunakan sebagai bahasa skrip meski pada praktiknya penggunaan bahasa ini lebih luas mencakup konteks pemanfaatan yang umumnya tidak dilakukan dengan menggunakan bahasa skrip.
+        Python dapat digunakan untuk berbagai keperluan pengembangan perangkat lunak dan dapat berjalan di berbagai platform sistem operasi.     
+    </string>
+    <string name="c1">DEV Player</string>
+    <string name="c">
+    Bahasa pemrograman C dibuat pertama kali oleh Dennis M. Ritchie pada tahun 1972. Saat itu Ritchie bekerja di Bell Labs, sebuah pusat penelitian yang berlokasi di Murray Hill, New Jersey, Amerika Serikat.
+
+    Ritchie membuat bahasa pemrograman C untuk mengembangkan sistem operasi UNIX. Sebelumnya, sistem operasi UNIX dibuat menggunakan bahasa assembly (assembly language). Akan tetapi bahasa assembly sendiri sangat rumit dan susah untuk dikembangkan.
+
+    Dengan tujuan mengganti bahasa assembly, peneliti di Bell Labs membuat bahasa pemrograman B. Namun bahasa pemrograman B juga memiliki beberapa kekurangan, yang akhirnya di lengkapi oleh bahasa pemrograman C.
+
+    Dengan bahasa C inilah sistem operasi UNIX ditulis ulang. Pada gilirannya, UNIX menjadi dasar dari banyak sistem operasi modern saat ini, termasuk Linux, Mac OS (iOS), hingga sistem operasi Android.
+   </string>
+    <string name="js1">DEV Player</string>
+    <string name="js">
+    JavaScript adalah bahasa pemrograman web yang bersifat Client Side Programming Language. Client Side Programming Language adalah tipe bahasa pemrograman yang pemrosesannya dilakukan oleh client. Aplikasi client yang dimaksud merujuk kepada web browser seperti Google Chrome dan Mozilla Firefox.
+
+    Bahasa pemrograman Client Side berbeda dengan bahasa pemrograman Server Side seperti PHP, dimana untuk server side seluruh kode program dijalankan di sisi server.
+
+    Untuk menjalankan JavaScript, kita hanya membutuhkan aplikasi text editor dan web browser. JavaScript memiliki fitur: high-level programming language, client-side, loosely tiped dan berorientasi objek.
+    </string>
+    <string name="ruby1">DEV Player</string>
+    <string name="ruby">
+    Ruby pertama kali dibuat oleh seorang programmer Jepang bernama Yukihiro Matsumoto. Pada tahun 1993 Yukihiro ingin membuat sebuah bahasa skripting yang memiliki kemampuan orientasi objek. Pada saat itu pemrograman berorientasi objek sedang berkembang tetapi belum ada bahasa pemrograman scripting yang mendukung pemrograman objek.
+
+    Penulisan Ruby dimulai pada Februari 1993 dan pada Desember 1994 dirilis versi alpha dari Ruby. Pada awal perkembangan Ruby, Yukihiro menulis Ruby sendiri sampai pada tahun 1996 sudah terbentuk komunitas Ruby yang banyak mengontribusikan perkembangan Ruby.
+
+    Saat ini Ruby telah berkembang tidak hanya di Jepang, tetapi diseluruh dunia. Bulan Agustus tahun 2006, Macintosh telah melakukan kerja sama dengan mengintegrasikan Ruby on Rails pada Mac OS X v10.5 Leopard telah diluncurkan bulan Oktober 2007. 
+    </string>
+    <string name="react1">DEV Player</string>
+    <string name="react">
+    React JS adalah sebuah pustaka/library javascript yang bersifat opensource untuk membangun User Interface yang dibuat oleh Facebook. React JS hanya mengurusi semua hal yang berkaitan dengan tampilan dan logika di sekitarnya.
+        React JS ini diciptakan dengan tujuan untuk Membangun aplikasi skala besar dengan data yang berubah dan terus berubah dari waktu ke waktu.”
+        
+    </string>
+    <string name="kotlin1">DEV Player</string>
+    <string name="kotlin">
+    Di Google I/O kemarin, Google kini telah memberikan dukungan penuh untuk bahasa pemrograman Kotlin. Android Studio 3.0 yang akan segera diluncurkan dalam waktu dekat nantinya akan langsung mendukung bahasa pemrograman Kotlin.
+
+    Mungkin bagi sebagian developer aplikasi Android sudah tahu tentang Kotlin. Nah bagi yang belum tahu apa itu Kotlin sederhananya Kotlin adalah bahasa pemrograman yang merupakan “penyempurnaan” dari bahasa pemrograman Java untuk pengembangan aplikasi Android.
+
+    Kotlin awalnya dikembangkan oleh JetBrains, perusahaan dibalik IntelliJ IDEA. Setelah melalui banyak perkembangan, JetBrains merilis Kotlin secara open source dan kini setelah perkembangannya semakin maju, Google mendukung penuh Kotlin untuk pengembangan aplikasi Android.
+
+    Developer tidak perlu khawatir proyek Android-nya yang menggunakan Java akan menjadi tidak bisa digunakan ketik ketika menggunakan Kotlin karena Java dan Kotlin bisa digunakan berbarengan. Dan karena Kotlin mirip dengan Java, developer akan dapat dengan mudah bahasa pemrograman Kotlin
+    </string>
+    <string name="dart1">DEV Player</string>
+    <string name="dart">
+Bahasa pemrograman Dart merupakan bahasa pemrograman general-purpose yang dirancang oleh Lars Bak dan Kasper Lund. Bahasa pemrograman ini dikembangkan sebagai bahasa pemrograman aplikasi yang dapat dengan mudah untuk dipelajari dan disebarkan.
+
+Bahasa pemrograman besutan Google ini dapat digunakan untuk mengembangkan berbagai macam platform termasuk di dalamnya adalah web, aplikasi mobile, server, dan perangkat yang mengusung teknologi Internet of Things.
+
+Bahasa pemrograman tersebut dapat digunakan untuk mengembangkan aplikasi untuk dijalankan pada berbagai macam peramban modern. Dart juga dapat digunakan untuk mengembangkan aplikasi dari codebase tunggal menjadi aplikasi Android maupun iOS.
+
+Bahasa pemrograman Dart dapat digunakan secara bebas oleh para developer, karena bahasa ini dirilis secara open-source oleh Google di bawah lisensi BSD. Bahasa pemrograman Dart merupakan bahasa pemrograman berbasis class dan berorientasi terhadap obyek dengan menggunakan sitaks bahasa pemrograman C.
+    </string>
+
 </resources>
